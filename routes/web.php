@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\ParkingController;
 
-Route::get('/parking', function () {
+Route::get('/', function () {
     return view('parking'); // Form untuk input nomor kendaraan
 });
 
